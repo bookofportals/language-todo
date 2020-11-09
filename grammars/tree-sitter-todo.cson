@@ -1,0 +1,13 @@
+name: 'TODO'
+scopeName: 'text.todo'
+type: 'tree-sitter'
+parser: 'tree-sitter-todo-full'
+injectionRegex: '^todo$'
+
+
+fileTypes: ['todo']
+
+
+scopes:
+  'source_file': 'text.todo'
+  'todo': 'storage.type.class.todo'
