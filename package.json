@@ -6,6 +6,7 @@
     "atom": "*",
     "node": "*"
   },
+  "main": "lib/main",
   "homepage": "http://atom.github.io/language-todo",
   "repository": {
     "type": "git",
@@ -19,6 +20,6 @@
     "coffeelint": "^1.10.1"
   },
   "dependencies": {
-    "tree-sitter-todo-full": "^0.2.0"
+    "tree-sitter-todo-full": "^0.3.0"
   }
 }

@@ -2,12 +2,25 @@ name: 'TODO'
 scopeName: 'text.todo'
 type: 'tree-sitter'
 parser: 'tree-sitter-todo-full'
-injectionRegex: '^todo$'
-
-
-fileTypes: ['todo']
-
+injectionRegex: '^(TODO|todo|todo)$'
 
 scopes:
   'source_file': 'text.todo'
   'todo': 'storage.type.class.todo'
+  'fixme': 'storage.type.class.fixme'
+  'changed': 'storage.type.class.changed'
+  'xxx': 'storage.type.class.xxx'
+  'idea': 'storage.type.class.idea'
+  'hack': 'storage.type.class.hack'
+  'note': 'storage.type.class.note'
+  'review': 'storage.type.class.review'
+  'nb': 'storage.type.class.nb'
+  'bug': 'storage.type.class.bug'
+  'question': 'storage.type.class.question'
+  'combak': 'storage.type.class.combak'
+  'temp': 'storage.type.class.temp'
+  'debug': 'storage.type.class.debug'
+  'optimize': 'storage.type.class.optimize'
+  'warning': 'storage.type.class.warning'
+  'radar': 'storage.type.class.radar'
+  'radar_uri': 'markup.underline.link.radar'
